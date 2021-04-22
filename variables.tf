@@ -5,6 +5,14 @@
 # Terraform code. If you create a variable with no default, the user will be
 # prompted to enter it (or define it via config file or command line flags.)
 
+variable "access_key" {
+    description = "access key variable - not recomended - being used to show what not to do"
+}
+
+variable "secret_key" {
+    description = "secret key variable - not recomended - being used to show not what to do"
+}
+
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
