@@ -47,3 +47,4 @@ variable "width" {
 variable "placeholder" {
   default     = "storage.googleapis.com/www.bsocloud.com/SG.jpg"
   description = "location where image source is stored"
+  }
