@@ -3,6 +3,6 @@
 # Make sure it is at least 5 characters long.
 
 # prefix = "yourname"
-# region = "us-east1"
+# region = "us-east-1"
 # access_key = "EnterAccessKeyHere"
 # secret_key = "EnterSecretKeyHere"
