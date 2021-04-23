@@ -142,7 +142,7 @@ resource "aws_instance" "anytech" {
 # Set up some environment variables for our script.
 # Add execute permissions to our scripts.
 # Run the deploy_app.sh script.
-resource "null_resource" "configure-cat-app" {
+resource "null_resource" "configure-anytech-app" {
   depends_on = [aws_eip_association.anytech]
 
   triggers = {
