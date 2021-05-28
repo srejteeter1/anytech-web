@@ -10,7 +10,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   
   <h2>------------------------------ Anytech Inc.--------------------------------</h2>
-   Welcome to ${PREFIX}'s app. Replace this text with your own.
+   Welcome to ${PREFIX}'s app. This is the new catchy marketing message.
   <center><h2> </h2></center>
   <img src="https://${PLACEHOLDER}"></img>
   <!-- END -->
