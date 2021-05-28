@@ -128,6 +128,7 @@ resource "aws_instance" "anytech" {
   tags = {
     Name = "${var.prefix}-anytech-instance"
     Department = "training"
+    Billable = "true"
   }
 }
 
